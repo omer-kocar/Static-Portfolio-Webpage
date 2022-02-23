@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#list {
+  display: flex;
+  list-style-type: none;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+li {
+  padding-top: 100%;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.5s;
+}
+a:hover {
+  color: rgb(255, 187, 0);
+  text-decoration: none;
+  font-size: 27px;
+  transition: 1s;
+}
+
+a > span {
+  justify-content: center;
+  align-items: center;
+  border-radius: 40%;
+}
+
+.col {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  font-weight: 900;
+}
+/* COL1 */
+.col1 {
+  background-image: url(/pictures/home.jpg);
+  opacity: 0.5;
+  transition: 0.8s;
+}
+.col1:hover {
+  background-image: url(/pictures/home.jpg);
+  opacity: 1;
+  transition: 1s;
+  text-shadow: 5px 5px 5px rgb(255, 210, 61);
+}
+.col1 > h2 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 25%;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.col1:hover > h2 {
+  opacity: 1;
+}
+/* COL2 */
+.col2 {
+  background-image: url(/pictures/works.jpg);
+  opacity: 0.5;
+  transition: 0.8s;
+}
+.col2:hover {
+  background-image: url(/pictures/works.jpg);
+  opacity: 0.9;
+  transition: 0.8s;
+  text-shadow: 5px 5px 5px white;
+}
+.col2 > h2 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 25%;
+    transition: 0.5s ease;
+    opacity: 0;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .col2:hover > h2 {
+    opacity: 1;
+  }
+/* COL3 */
+.col3 {
+  background-image: url(/pictures/me.jpg);
+  opacity: 0.5;
+  transition: 0.8s;
+}
+.col3:hover {
+  background-image: url(/pictures/me.jpg);
+  opacity: 0.9;
+  transition: 0.8s;
+  text-shadow: 5px 5px 5px red;
+}
+.col3 > h2 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 25%;
+    transition: 0.5s ease;
+    opacity: 0;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .col3:hover > h2 {
+    opacity: 1;
+  }
+/* COL4 */
+.col4 {
+  background-image: url(/pictures/contact.jpg);
+  opacity: 0.4;
+  transition: 0.8s;
+}
+.col4:hover {
+  background-image: url(/pictures/contact.jpg);
+  opacity: 0.8;
+  transition: 0.8s;
+}
+.col4 > h2 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 25%;
+    transition: 0.5s ease;
+    opacity: 0;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .col4:hover > h2 {
+    opacity: 1;
+  }
