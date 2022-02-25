@@ -1,22 +1,24 @@
-// choosing container for appendChild
-// const container = document.querySelector(".container");
+// FOR WORKS PAGE
 
-// // My array for loop
-// let elements = ["home", "about", "my work", "contanct"];
+const navToggle = document.querySelector(".nav-toggle")
+const links = document.querySelector(".links")
 
-// // Creating ul and li
-// let ul = document.createElement("ul");
-// container.appendChild(ul);
-// ul.setAttribute("id", "list");
+navToggle.addEventListener("click",function(){
+    // console.log(links.classList)
+    // console.log(links.classList.contains("links"))   //true
+    // console.log(links.classList.contains("random"))  //false
+    if(links.classList.contains("show-links")){
+        links.classList.remove("show-links")
+    }
+    else {
+        links.classList.add("show-links")
+    }
 
-// elements.forEach((element) => {
-//   let li = document.createElement("li");
-//   ul.appendChild(li);
-//   let a = document.createElement("a");
-//   li.appendChild(a);
-//   a.setAttribute("href", "#");
-//   a.innerHTML = element;
+    // Another way to do that below
+    // links.classList.toggle("show-links")
 
-// });
+})
 
-// let list = document.getElementById("list");
+
+
+

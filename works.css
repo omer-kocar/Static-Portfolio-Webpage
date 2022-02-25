@@ -27,7 +27,7 @@ a {
   padding: 0;
 }
 .links {
-    display: flex;
+    display: block;
 }
 
 .links> a {
@@ -104,7 +104,7 @@ nav {
 .links a:hover {
   background-color: hsl(210, 31%, 80%);
   color: hsl(210, 22%, 49%);
-  padding-left: 1.5rem;
+  padding: 0.5rem;
 }
 .social-icons {
   display: none;
@@ -133,13 +133,16 @@ nav {
     height: auto;
     display: flex;
   }
+
   .links a {
     padding: 0;
     margin: 0 0.5rem;
   }
   .links a:hover {
-    padding: 0;
-    background: transparent;
+
+    background-color:hsl(205, 90%, 76%);
+    transition: all 0.5s;
+
   }
   .social-icons {
     display: flex;
