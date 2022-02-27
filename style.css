@@ -1,7 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Open sans", sans-serif;
+
+  
 }
 
 #list {
@@ -59,7 +67,7 @@ a > span {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); 
+  background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
   width: 25%;
   transition: 0.5s ease;
@@ -84,21 +92,21 @@ a > span {
   text-shadow: 5px 5px 5px white;
 }
 .col2 > h2 {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1;
-    width: 25%;
-    transition: 0.5s ease;
-    opacity: 0;
-    font-size: 20px;
-    padding: 20px;
-    justify-content: center;
-  }
-  .col2:hover > h2 {
-    opacity: 1;
-  }
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 25%;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.col2:hover > h2 {
+  opacity: 1;
+}
 /* COL3 */
 .col3 {
   background-image: url(/pictures/me.jpg);
@@ -112,21 +120,21 @@ a > span {
   text-shadow: 5px 5px 5px red;
 }
 .col3 > h2 {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1;
-    width: 25%;
-    transition: 0.5s ease;
-    opacity: 0;
-    font-size: 20px;
-    padding: 20px;
-    justify-content: center;
-  }
-  .col3:hover > h2 {
-    opacity: 1;
-  }
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 25%;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.col3:hover > h2 {
+  opacity: 1;
+}
 /* COL4 */
 .col4 {
   background-image: url(/pictures/contact.jpg);
@@ -139,18 +147,18 @@ a > span {
   transition: 0.8s;
 }
 .col4 > h2 {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); 
-    color: #f1f1f1;
-    width: 25%;
-    transition: 0.5s ease;
-    opacity: 0;
-    font-size: 20px;
-    padding: 20px;
-    justify-content: center;
-  }
-  .col4:hover > h2 {
-    opacity: 1;
-  }
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 25%;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.col4:hover > h2 {
+  opacity: 1;
+}

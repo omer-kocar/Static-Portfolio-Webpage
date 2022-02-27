@@ -20,5 +20,36 @@ navToggle.addEventListener("click",function(){
 })
 
 
+const plusIcon = document.querySelector(".plus-icon");
+const questionsBtn = document.querySelector(".question-btn")
+const body = document.querySelector("body")
+
+let i=0;
+let images = [];
+let sliderTime = 2000;
+
+images[0]= '/pictures/flag.png'
+images[1]= '/pictures/lazienki.jpg'
+images[2]= '/pictures/warsaw1.jpg'
+
+let pic = ['/pictures/flag.png','/pictures/lazienki.jpg','/pictures/warsaw1.jpg']
+
+
+
+
+
+questionsBtn.addEventListener("click", function(){
+    let interval = setInterval(function changePicture(){
+        if(i<images.length) {
+        i++
+        document.body.style.backgroundImage = images[i];
+        } if (pic.length === 0 ) {
+            clearInterval(interval)
+        }
+        
+    },sliderTime) 
+})
+
+
 
 
